@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-gap: 1rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.card-left {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-left img {
+  border-radius: 50%;
+  max-width: 80%;
+}
+
+.card-left p {
+  color: #87898b;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card-right h3 {
+  color: #555;
+  font-weight: 900;
+}
+
+.contact-address {
+  display: inline-block;
+  color: #87898b;
+}
+
+.company-address {
+  margin: 1rem 0;
+  text-align: left;
+  width: 60%;
+}
+
+.company-address h4 {
+  color: #555;
+  font-weight: 600;
+}
+
+.company-address p,
+.company-address span {
+  color: #87898b;
+}
+
+.edit-delete {
+  text-align: right;
+}
+
+.edit-delete i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.coords {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.coords span {
+  color: #333;
+}
